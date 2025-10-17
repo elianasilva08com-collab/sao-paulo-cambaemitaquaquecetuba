@@ -17,11 +17,8 @@ export const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Create WhatsApp message
-    const whatsappMessage = `Olá! Gostaria de um orçamento.%0A%0ANome: ${formData.name}%0ATelefone: ${formData.phone}%0AEmail: ${formData.email}%0AMensagem: ${formData.message}`;
-    
-    // Open WhatsApp
-    window.open(`https://wa.me/551152951951?text=${whatsappMessage}`, '_blank');
+    // Redirect to WhatsApp
+    window.open('https://api.whatsapp.com/send/?phone=551152951951&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+aluguel+de+ca%C3%A7ambas+em+Itaquaquecetuba.&type=phone_number&app_absent=0', '_blank');
     
     toast({
       title: "Redirecionando para WhatsApp",

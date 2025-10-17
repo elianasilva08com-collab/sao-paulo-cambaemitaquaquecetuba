@@ -36,7 +36,7 @@ export const Hero = () => {
             <a href="#orcamento">Orçamento Grátis em 30min</a>
           </Button>
           <Button size="lg" variant="outline" className="text-base" asChild>
-            <a href="https://wa.me/551152951951?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20aluguel%20de%20caçambas%20em%20São%20Paulo." target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send/?phone=551152951951&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+aluguel+de+ca%C3%A7ambas+em+Itaquaquecetuba.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5" />
               WhatsApp Agora
             </a>
