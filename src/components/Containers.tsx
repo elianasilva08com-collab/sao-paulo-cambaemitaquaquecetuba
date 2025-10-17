@@ -25,6 +25,13 @@ export const Containers = () => {
       badgeVariant: "outline" as const,
     },
     {
+      size: "10m³",
+      title: "Caçamba 10m³",
+      description: "Obras grandes e reformas completas",
+      badge: "Alto Volume",
+      badgeVariant: "outline" as const,
+    },
+    {
       size: "12m³",
       title: "Caçamba 12m³",
       description: "Grandes obras, reformas completas e construções",
@@ -43,7 +50,7 @@ export const Containers = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {containers.map((container, index) => (
             <Card 
               key={index}
