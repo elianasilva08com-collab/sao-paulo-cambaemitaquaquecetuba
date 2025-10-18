@@ -31,13 +31,6 @@ export const Containers = () => {
       badge: "Alto Volume",
       badgeVariant: "outline" as const,
     },
-    {
-      size: "12m³",
-      title: "Caçamba 12m³",
-      description: "Grandes obras, reformas completas e construções",
-      badge: "Máxima Capacidade",
-      badgeVariant: "outline" as const,
-    },
   ];
 
   return (
